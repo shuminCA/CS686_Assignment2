@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Shumin's Assignment2</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="cta-form" name="sign-up" method="POST" data-netlify="true">
+        <h1>Shumin's Assignment 2</h1>
+        <div class="form">
+          <div>
+            <label for="full-name">Name: </label>
+            <input
+              id="full-name"
+              type="text"
+              placeholder="Shumin Zhang"
+              name="full-name"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Email: </label>
+            <input
+              id="email"
+              type="email"
+              placeholder="me@example.com"
+              name="email"
+              required
+            />
+          </div>
+          <div class="college">
+            <label for="college">College Level: </label>
+            <label for="bs">
+              <input type="radio" id="bs" name="bs" value="MS" />
+              BS</label
+            >
+            <label for="ms">
+              <input type="radio" id="ms" name="ms" value="MS" />
+              MS</label
+            >
+          </div>
+          <div>
+            <label for="class-taken">Class Taken: </label>
+            <input
+              id="class-taken"
+              type="text"
+              placeholder="CS 686"
+              name="class-taken"
+              required
+            />
+          </div>
+          <div>
+            <label for="classExpectation">Class Expectation:</label>
+            <textarea id="classExpectation" name="classExpectation"></textarea>
+            <br />
+          </div>
+        </div>
+        <div class="btn-container">
+          <button class="btn">Submit</button>
+        </div>
+        <p class="notes">
+          Notes: The information you provide will be sent to Netlify.
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
